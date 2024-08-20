@@ -1,5 +1,5 @@
 body {
-  background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMzQwLTQxOS1rdXQtMS5qcGc.jpg);
+  background: url(https://i0.wp.com/wisdomagora.com/wp-content/uploads/2021/09/%ED%99%94%EB%A9%B4-%EC%BA%A1%EC%B2%98-2021-09-02-170813.png?resize=546%2C280&ssl=1);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,68 @@ body {
 
 .weather-box {
   border: 3px solid white;
-  padding: 50px;
+  padding: 20px 40px;
   border-radius: 30px;
   background-color: whitesmoke;
+}
+
+.weather_info_on {
+  display: flex;
+  height: 18em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 7em;
+}
+.weather_info_on div {
+  font-size: 36px;
+}
+
+.weather_info_under {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.one_line {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  text-align: center;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: space-around;
+  width: 30em;
+  margin: 7px;
+}
+
+@media screen and (max-width: 570px) {
+  .weather_info_on {
+    display: flex;
+    height: 8em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4em;
+  }
+
+  .weather_info_on div {
+    font-size: 24px;
+  }
+
+  .one_line {
+    display: inline-block;
+    width: 8em;
+    height: 8em;
+    margin: 12px 0;
+    text-align: center;
+  }
+  .btn_box {
+    flex-wrap: wrap;
+    width: 20em;
+    gap: 7px;
+  }
 }
